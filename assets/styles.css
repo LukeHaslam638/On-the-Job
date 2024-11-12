@@ -156,7 +156,7 @@ header, section, footer {
 .favorite-dish {
     width: 100%;
     border-radius: 8px;
-    max-width: 200px; /* Set max width for the dish image */
+    max-width: 222px; /* Set max width for the dish image */
     margin-top: 10px;
 }
 
@@ -168,3 +168,22 @@ header, section, footer {
     margin-top: 10px;
 }
 
+/* attempting to make old images more responsive */
+.truck-images {
+    @media (max-width: 600px) {
+        .gallery img {
+            max-width: 75%; /* Allows images to take up full width on smaller screens */
+        }
+    }
+}
+
+/* And finally, Add LINE SPACING to name and dish description */
+/* and the hours */
+.name, .dish-description {
+    line-height: 1.5; /* Adjust value for desired spacing */
+}
+
+.hours {
+    line-height: 2;
+    
+}
