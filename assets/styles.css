@@ -111,3 +111,60 @@ header, section, footer {
 #menu ul li ul {
     color: #a0ffa0; /* A lighter green for descriptions, for a layered look */
 }
+
+/* Overall Team Gallery Container */
+.team-gallery {
+    display: flex;
+    gap: 20px; /* Space between each team member */
+    justify-content: center;
+    flex-wrap: wrap; /* Allows wrapping on smaller screens */
+    padding: 20px;
+}
+
+/* Each Team Member Flex Box */
+.team-member {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 200px; /* Adjust width as needed */
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+/* Profile Photo Styling */
+.profile-photo {
+    width: 100%;
+    border-radius: 50%;
+    max-width: 150px; /* Set max width for a circular profile photo */
+    margin-bottom: 10px;
+}
+
+/* Name and Years */
+.name {
+    font-weight: bold;
+    font-size: 1.1rem;
+    margin: 10px 0;
+    text-align: center;
+    color: #00aa00;
+}
+
+/* Favorite Dish Photo Styling */
+.favorite-dish {
+    width: 100%;
+    border-radius: 8px;
+    max-width: 200px; /* Set max width for the dish image */
+    margin-top: 10px;
+}
+
+/* Dish Description */
+.dish-description {
+    font-size: 0.9rem;
+    text-align: center;
+    color: #666;
+    margin-top: 10px;
+}
+
